@@ -1,0 +1,45 @@
+*,*::before,::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h4,h5{
+    font-size: 100%;
+    font-weight: normal;
+}
+
+h4{
+    font-weight: 700;
+    font-size: $crudAndStats;
+    color: $veryDarkDesaturatedBlue;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Kumbh Sans', sans-serif;
+    background: url("../images/bg-pattern-top.svg") right 50vw bottom 40vh no-repeat, url("../images/bg-pattern-bottom.svg") left 55vw top 40vh no-repeat;
+    background-color: $darkCyan;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: $darkGray;
+}
+
+.attribution{
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    a{
+        text-decoration: none;
+        color: $veryDarkDesaturatedBlue;
+        cursor: pointer;
+    }
+    p{
+        text-align: center;
+    }
+}
